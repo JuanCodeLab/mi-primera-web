@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi primera web</title>
+    <link rel="stylesheet" href="formulario.css" />
+    <script
+      src="https://kit.fontawesome.com/22fa5ce14d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>  
+      <header>
+        <a href="index.html"><i class="fa-solid fa-ghost"></i></a>
+        <nav>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="acerca">Acerca de mi</a></li>
+            <li><a href="trabajos.html">Trabajos</a></li>
+            <li><a href="servcios">Servicios</a></li>
+            <li><a href="formulario.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section>
+        <h2 class="titulo_seccion">Contacto</h2>
+        <div class="form_contenedor">
+        <div class="container">
+          <form> <!-- Agrega más inputs aquí -->
+            <div class="form-group">
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre">
+            </div>
+            <div class="form-group"></div>
+              <label for="pais">Pais:</label>
+              <select name="pais" id="pais">
+                <option value="argentina">Argentina</option>
+                <option value="bolivia">Bolivia</option>
+                <option value="chile">Chile</option>
+                <option value="mexico">Mexico</option>
+                <option value="peru">Perú</option>
+                <option value="uruguay">Uruguay</option>
+                <option value="venezuela">Venezuela</option>
+                <option value="default" selected>Seleccionar</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="email">e-mail</label>
+              <input
+              type="email"
+              name="email"
+              placeholder="Ingrese su e-mail"
+              id="email"
+              required/>
+            </div>
+            <div class="form-group">
+              <label for="consulta">Consulta:</label>
+              <textarea name="consulta" id="consulta"></textarea>
+            </div>
+            <div class="form-group">
+              <label for="mensaje">Mensaje:</label>
+              <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+          </form>   
+        </div>
+      </section>
+      <footer>
+        <h3>Mas informacion y otros sitios</h3>
+        <nav>
+          <ul>
+            <li><a href="Linkind">Linkind</a></li>
+            <li><a href="Facebook">Facebook</a></li>
+            <li><a href="Twiter">Twiter</a></li>
+            <li><a href="Instagram">Instagram</a></li>
+            <li><a href="Watsapp">Watsapp</a></li>
+          </ul>
+        </nav>
+      </footer>
+    </div>
+  </body>
+</html>

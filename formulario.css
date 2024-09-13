@@ -1,0 +1,101 @@
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: grey
+}
+
+header a i {
+  color: white;
+  font-size: 3em;
+  padding: .3em;
+}
+
+header nav ul {
+  display: flex;
+  gap: .8em;
+  margin-right: 1em ;
+}
+
+header nav ul li a {
+  font-size: 1.1em;
+  color: white;
+}
+
+body {
+  font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.titulo_seccion {
+  position: relative;
+  font-size: 40px;
+  color: #003750;
+  text-align: center;
+}
+.container {
+  max-width: 500px; /* Define el ancho máximo del contenedor */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+  padding: 2px; /* Agrega un poco de espacio alrededor del formulario */
+  border: 2px solid; /* Agrega un borde al contenedor */
+  border-radius: 5px; /* Agrega bordes redondeados al contenedor */
+}
+.form-group {
+  margin-bottom: 15px; /* Espacio entre cada input */
+}
+label {
+  margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 50px; /* Define el ancho máximo del input */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+textarea {
+  resize: vertical; /* Permite redimensionar verticalmente el textarea */
+}
+button {
+  width: 50px; /* Define el ancho máximo del input */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  /* Coloca estilos a tu botón */
+}
+button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  display: flex;
+  background-color: rgb(34, 33, 31, 0.85);
+  align-items: justify;
+  justify-content: space-between;
+}
+
+footer a i {
+  color: white;
+  font-size: 3em;
+  padding: 0.5em;
+}
+
+footer nav ul {
+  display: flex;
+  gap: 1.1em;
+}
+
+footer nav ul li a {
+  color: white;
+}
